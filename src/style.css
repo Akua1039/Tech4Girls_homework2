@@ -2,10 +2,10 @@
 width: 5px;
 height: 5px;
 padding: 0px;
+text-indent: 50px;
 }
 .images img{
     width: 175px;
     height: 175px;
-    border-radius: 100%;
-    
+    border-radius: 100%; 
 }
