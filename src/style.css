@@ -59,21 +59,21 @@ text-indent: 60px;
     'Lucida Sans', Arial, sans-serif;line-height: 20%;
 }
 .images4{
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-right: 100px; border-radius: 300%; 
-    
+    margin-right: 30px; 
 }
 .pages_container{
-   display: flexbox;
-    
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin-inline: 1px;
 }
 .images_container{
     display: flex;
     flex-wrap: wrap;
-    padding-inline: 20px;
-    padding-top: 20px;
-    margin-inline: 20px;
-    border-spacing: 20px;
-    justify-content: space-between;
+    padding-top: 10px;
+    margin-inline: 1px;
+
 }
