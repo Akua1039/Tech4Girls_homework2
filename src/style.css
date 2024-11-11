@@ -1,11 +1,79 @@
+h2{
+    text-justify: distribute-all-lines; font-size: 25px; 
+    color: black;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 
+        sans-serif; color: black; font-weight: 200;
+    }
+    h1{
+        background-color: pink; text-indent: 250px;
+        height: fit-content; border-radius: 10px; 
+        padding-bottom: 0px; margin-bottom: 0px;
+        font-family: 'Trebuchet MS', 
+        'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .con_info{
+        text-indent: 250px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 
+        sans-serif; font-size: 18px;
+    }
 .images{
-width: 5px;
-height: 5px;
-padding: 0px;
-text-indent: 50px;
+width: 2px;
+height: 10px;
+padding: 5px;
+text-indent: 60px;
 }
 .images img{
-    width: 145px;
-    height: 145px;
-    border-radius: 100%; 
+    width: 130px;
+    height: 130px;
+    border-radius: 300%; 
+}
+.Education{
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;line-height: 15%;
+    }
+.Experience{
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;line-height: 15%;
+}
+.list{
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif; padding-top: 0%; 
+    }
+.References{
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;line-height: 20%;
+    padding-bottom: 8px;
+}
+.References1{
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;line-height: 20%;
+}
+.images4{
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 100px; border-radius: 300%; 
+    
+}
+.pages_container{
+   display: flexbox;
+    
+}
+.images_container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 20px;
+    padding-top: 20px;
+    margin-inline: 20px;
+    border-spacing: 20px;
+    justify-content: space-between;
 }
